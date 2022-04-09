@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pc-calculator/static/css/main.8b220485.css",
+    "main.js": "/pc-calculator/static/js/main.2596b025.js",
+    "index.html": "/pc-calculator/index.html",
+    "main.8b220485.css.map": "/pc-calculator/static/css/main.8b220485.css.map",
+    "main.2596b025.js.map": "/pc-calculator/static/js/main.2596b025.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b220485.css",
+    "static/js/main.2596b025.js"
+  ]
+}
