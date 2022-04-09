@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+}
+.header a {
+  letter-spacing: 0.2rem;
+  color: #ffe700;
+  font-size: 4rem;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    font-size: 3rem;
+  }
+}

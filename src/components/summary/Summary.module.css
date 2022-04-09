@@ -1,0 +1,20 @@
+.summary {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.summary h1 {
+  margin-bottom: 1rem;
+}
+.summary p {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.details {
+  list-style: none;
+  font-size: 2rem;
+}
+.details li {
+  margin-top: 2rem;
+}

@@ -1,0 +1,26 @@
+.item {
+  position: relative;
+  height: 5rem;
+  background-color: #000000;
+  color: #ffe700;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.02rem;
+}
+
+.item:hover .buttons button {
+  opacity: 1;
+}
+.buttons {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.buttons button {
+  opacity: 0;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  margin-right: 0.2rem;
+}

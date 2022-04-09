@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selects {
+  margin-left: 2rem;
+  display: flex;
+  height: 100%;
+}
+.selects select {
+  width: 20rem;
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .selects {
+    margin-left: 0;
+  }
+  .selects select {
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+  }
+  .selects select {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.button {
+  width: 50%;
+  margin-top: 3rem;
+  height: 4rem;
+  margin: 3rem auto 0 auto;
+  cursor: pointer;
+  background: black;
+  border: 1px solid #ffe700;
+}
